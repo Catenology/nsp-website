@@ -1,0 +1,47 @@
+.hero {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.hero-content {
+  text-align: center;
+  .brand {
+    max-width: 10rem;
+    margin: 1rem auto;
+  }
+  .primary,
+  .secondary {
+    display: inline-block;
+  }
+  .hero-button {
+    margin: 2rem auto;
+  }
+  @media screen and (min-width: $breakpoint-sm) {
+    .primary,
+    .secondary {
+      font-size: 1.2rem;
+    }
+  }
+  @media screen and (min-width: $breakpoint-md) {
+    .primary,
+    .secondary {
+      display: block;
+    }
+    .primary {
+      font-size: 1.5rem;
+    }
+    .secondary {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+  }
+  @media screen and (min-width: $breakpoint-lg) {
+    .primary {
+      font-size: 2rem;
+    }
+    .secondary {
+      font-size: 1.5rem;
+    }
+  }
+}

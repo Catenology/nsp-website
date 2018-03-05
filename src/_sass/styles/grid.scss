@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  @media screen and (min-width: $breakpoint-md) {
+    width: 80%;
+  }
+  @media screen and (min-width: $breakpoint-lg) {
+    width: 60%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.columns {
+  width: 100%;
+  @media screen and (min-width: $breakpoint-md) {
+    &:not(:nth-child(3n+1)) {
+      margin-left: 4%;
+    }
+    &.six {
+      width: 48%;
+    }
+    &.three {
+      width: 30%;
+    }
+  }
+}

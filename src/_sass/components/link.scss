@@ -1,0 +1,11 @@
+a {
+  &,
+  &:visited {
+    text-decoration: none;
+  }
+  &:hover,
+  &:focus,
+  &.active {
+    text-decoration: underline;
+  }
+}

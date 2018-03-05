@@ -1,0 +1,49 @@
+.section {
+  min-height: 400px;
+  padding: 4rem;
+  min-height: 50vh;
+  &.white {
+    background-color: $color-white;
+    color: $color-black;
+    a {
+      &,
+      &:visited {
+        color: $color-brand-darker;
+      }
+      &:hover,
+      &:focus,
+      &.active {
+        color: lighten($color-brand-darker, 20%);
+      }
+    }
+  }
+  &.grey {
+    background-color: $color-grey-darkest;
+    color: $color-white;
+    a {
+      &,
+      &:visited {
+        color: $color-brand;
+      }
+      &:hover,
+      &:focus,
+      &.active {
+        color: lighten($color-brand, 20%);
+      }
+    }
+  }
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0 0 2rem;
+}
+
+.section-description {
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}

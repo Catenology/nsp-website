@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include svgsprite.html %}
+    {% include header.html %}
+    <main class="site-content">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    <script src="js/main.min.js?v=@@main-js" charset="utf-8"></script>
+  </body>
+</html>

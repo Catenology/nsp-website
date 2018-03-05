@@ -1,0 +1,100 @@
+[{
+    "id": 1,
+    "name": "LumaSense Dissolved Gas Analysis Equipment",
+    "shortname": "LumaSense DGA",
+    "description": "SmartDGA® is the industry’s most cost-effective Dissolved Gas Analysis (DGA) solution, designed to provide the best user experience and maximum flexibility.",
+    "thumbnail": "product-lumasense-dga.jpg",
+    "images": ["product-lumasense-dga-detail.jpg"],
+    "website": "http://www.lumasenseinc.com/EN/products/dga-for-transformers/"
+  },
+  {
+    "id": 2,
+    "name": "LumaSense SmartDGA EZHub™",
+    "shortname": "LumaSense EzHub",
+    "description": "The SmartDGA EZHub™ unit makes online DGA easy by simplifying installation and connectivity. As the central intelligence for the SmartDGA® system, the unit is capable of handling the power and communication needs for the entire solution.",
+    "thumbnail": "product-lumasense-ezhub.jpg",
+    "images": ["product-lumasense-ezhub-detail.jpg"],
+    "website": "http://www.lumasenseinc.com/EN/products/dga-for-transformers/smartdga-ezhub/"
+  },
+  {
+    "id": 3,
+    "name": "LumaSMART iCore™",
+    "shortname": "LumaSMART iCore",
+    "description": "LumaSMART iCore™ provides advanced communications, local display, and memory to enhance Smart Grid integration and performance.",
+    "thumbnail": "product-lumasmart-icore.jpg",
+    "images": ["product-lumasmart-icore-detail.jpg"],
+    "website": "http://www.lumasenseinc.com/EN/products/dga-for-transformers/lumasmart-icore/"
+  },
+  {
+    "id": 4,
+    "name": "LumaSMART Controller",
+    "shortname": "LumaSMART",
+    "description": "The most critical parameter to monitor on a transformer is the temperature. Transformer life is directly related to the life of the insulating paper inside. The life of the insulating paper is directly related to temperature it is exposed to. The highest temperature on the windings is the Winding Hot Spot (WHS), where the insulating paper is most likely to break down first. Conventional methods only simulate or calculate this temperature, but not directly measure it. The only way to know exactly the temperature at the WHS is through the use of fiber optics.The LumaSMART is designed to provide real time transformer temperatures that can be used for protection and control at a cost effective price. Transformers are critical assets that often take the brunt of an overload condition and are the most likely to be damaged without proper control and protection. The drift-free, calibration-free nature inherent in our patented Fluoroptic® technology makes the LumaSMART ideally suited for use in transformers as a reliable and cost-effective means of protection for these valuable assets.",
+    "thumbnail": "product-lumasmart.jpg",
+    "images": ["product-lumasmart-detail.jpg"],
+    "website": "http://www.lumasenseinc.com/EN/products/fluoroptic-temperature-sensors/lumasmart-fluoroptic-thermometry/"
+  },
+  {
+    "id": 5,
+    "name": "LumaSHIELD Controller",
+    "shortname": "LumaSHIELD",
+    "description": "At the heart of the LumaSHIELD is the LumaSense Semiconductor Band Gap (SCBG) technology which performs measurements using the temperature-dependent bandgap shift of a Gallium Arsenide (GaAs) crystal. The LumaSHIELD, designed for Smart Grid integration, is fitted with an internal reference that allows regular self-verification and correction of its fully traceable calibration. The internal reference provides long- term accuracy in the adverse conditions encountered in a distribution transformer environment, such as temperature variations, component aging, mechanical shocks and transformer vibrations.",
+    "thumbnail": "product-lumashield.jpg",
+    "images": ["product-lumashield-detail.jpg"],
+    "website": "http://www.lumasenseinc.com/EN/products/fluoroptic-temperature-sensors/lumashield-gallium-arsenide-based-product-line-for-distribution-transformer/lumashield-controller.html"
+  },
+  {
+    "id": 6,
+    "name": "BoilerSpection MB",
+    "shortname": "BoilerSpection MB",
+    "description": "Built for mobile use, BoilerSpection-MB utilizes special mid-wave infrared detectors to see through flames. This unique feature means BoilerSpection-MB can provide the clearest and most stable through-flame images in boilers, furnaces, kilns or incinerators. With BoilerSpection-MB plant operators can quickly and accurately identify process abnormalities allowing for more optimal combustion and heat transfer. Operators can then direct cleaning operations, regulate flow of fuel and air, reduce emissions, reduce fuel consumption, speed up boiler light off, and improve safety.",
+    "thumbnail": "product-boilerspection-mb.jpg",
+    "images": ["product-boilerspection-mb-detail.jpg"],
+    "website": "http://www.lumasenseinc.com/EN/products/thermal-imaging-systems/boilerspection/boilerspection-mb/"
+  },
+  {
+    "id": 7,
+    "name": "GridSense BushingIQ",
+    "shortname": "GS BushingIQ",
+    "description": "BushingIQ provides advanced warning of bushing failure through sensors that detect early changes in the voltage amplitude and phase angle. Using algorithms that simulate the Schering Bridge technique—an industry standard for offline testing—BushingIQ performs power factor/tan δ tests online. Offline testing is typically performed at 10kV and when weather permits. BushingIQ, on the other hand, tests online, at rated voltage, at load, and in all weather conditions. BushingIQ not only detects internal insulation failures, but also external issues such as surface contamination due to pollution. You’ll see bushing condition displayed on a 0 -100% scale, indicating changes in the power factor/tan δ.",
+    "thumbnail": "product-gridsense-bushingiq.jpg",
+    "images": ["product-gridsense-bushingiq-detail.jpg"],
+    "website": "http://www.gridsense.com/wp/wp-content/uploads/2012/11/Bushing-IQ_Broch_112812_inLineFNL.pdf"
+  },
+  {
+    "id": 8,
+    "name": "GridSense TransformerIQ",
+    "shortname": "GS TransformerIQ",
+    "description": "TransformerIQ provides real-time, continuous intelligence for distribution transformers from the padmount to the poletop. Designed for quick, live installation and equipped with an on-board, no-maintenance power source, TransformerIQ provides the in-depth data you need to protect against overload, quickly diagnose and resolve maintenance issues, improve fault restoration time, optimize asset utilization, and predict remaining asset life.",
+    "thumbnail": "product-gridsense-transformeriq.jpg",
+    "images": ["product-gridsense-transformeriq-detail.jpg"],
+    "website": "http://www.gridsense.com/wp/wp-content/uploads/2013/10/Transformer-IQ-Broch-091213-Linear.pdf"
+  },
+  {
+    "id": 9,
+    "name": "Omnicron CPC100 Universal Testing Equipment",
+    "shortname": "Omnicron CPC100",
+    "description": "Electrical tests on transformers, current transformers, voltage transformers, grounding systems, lines and cables, and circuit breakers can be performed with the CPC 100. The patented test system replaces several individual testing devices and offers new, innovative testing methods. The CPC 100 is the base for multiple accessories. These facilitate further applications, such as tan delta measurements, as well as line and ground impedance measurements.",
+    "thumbnail": "product-omnicron-cpc100.jpg",
+    "images": ["product-omnicron-cpc100-detail.jpg"],
+    "website": "https://www.omicron.at/fileadmin/user_upload/pdf/literature/CPC-100-Brochure-ENU.pdf"
+  },
+  {
+    "id": 10,
+    "name": "Omnicron CMC356 Universal Relay Test Set",
+    "shortname": "Omnicron CMC356",
+    "description": "The CMC 356 is the universal solution for testing all generations and types of protection relays. Its powerful six current sources (three-phase mode: up to 64 A / 860 VA per channel) with a great dynamic range, make the unit capable of testing even high-burden electromechanical relays with very high power demands. The CMC 356 is the first choice for applications requiring the highest versatility, amplitude and power. Commissioning engineers will particularly appreciate its ability to perform wiring and plausibility checks of current transformers, by using primary injection of high currents from the test set.",
+    "thumbnail": "product-omnicron-cmc365.jpg",
+    "images": ["product-omnicron-cmc365-detail.jpg"],
+    "website": "https://www.omicron.at/fileadmin/user_upload/pdf/literature/CMC-356-Brochure-ENU.pdf"
+  },
+  {
+    "id": 11,
+    "name": "Enpay Transformer Board",
+    "shortname": "Enpay Transformer Board",
+    "description": "ENPAYBOARD is cellulose based and produced from kraft unbleached softwood pulp having high chemical purity and low conductivity. It is produced on an intermittent board machine and compacted without added bonding agents in multi day-light press under heat and pressure to achieve required properties. The boards are characterized by high density, high purity, uniform thickness, dimensional stability, low compressibility, low shrinkage and high electrical strength.",
+    "thumbnail": "product-enpay-transformerboard.jpg",
+    "images": [],
+    "website": "https://www.enpay.com/en/product.php?id=71"
+  }
+]

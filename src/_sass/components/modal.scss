@@ -1,0 +1,80 @@
+.modal {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-height: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: opacity ease .3s;
+  background-color: $color-grey-darkest;
+  z-index: 20000;
+  &:active,
+  &.active {
+    display: block;
+    opacity: 1;
+  }
+  @media screen and (min-width: $breakpoint-md) {
+    background-color: fade-out($color-grey-darkest, .2);
+  }
+}
+
+.modal-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 2rem;
+  @media screen and (min-width: $breakpoint-md) {
+    width: 50%;
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: $color-white;
+    color: $color-black;
+  }
+}
+
+.modal-toggle {
+  &:checked {
+    & ~ .modal {
+      display: block;
+      max-height: none;
+      opacity: 1;
+    }
+    & ~ .modal-close-icon {
+      display: block;
+    }
+  }
+  &:not(:checked) {
+    & ~ .modal {
+      display: none;
+      opacity: 0;
+    }
+    & ~ .modal-close-icon {
+      display: none;
+    }
+  }
+}
+
+.modal-close-icon {
+  display: block;
+  position: fixed;
+  z-index: 30000;
+  top: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: $color-brand;
+  &:hover,
+  &:focus {
+    color: lighten($color-brand, 20%);
+    cursor: pointer;
+  }
+  .material-icons {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}

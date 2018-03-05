@@ -1,0 +1,37 @@
+[{
+    "id": 1,
+    "name": "China Three Gorges Corporation",
+    "description": "Three Gorges Dam Hydroelectric Power Generator Project",
+    "image": "icon-client-ctg"
+  },
+  {
+    "id": 2,
+    "name": "China Huadian Group",
+    "description": "Zhengchangzhuang Power Plant, Project for 2008 Beijing Olympics",
+    "image": "icon-client-huadian"
+  },
+  {
+    "id": 3,
+    "name": "Beijing Energy Investment Holding Company Ltd.",
+    "description": "Taiyanggong Power Plant, Project for 2008 Beijing Olympics",
+    "image": "icon-client-bei"
+  },
+  {
+    "id": 4,
+    "name": "Gezhouba Group",
+    "description": "Jingmen Substation",
+    "image": "icon-client-cggc"
+  },
+  {
+    "id": 5,
+    "name": "China Guodian Corporation",
+    "description": "Beilungang Power Plant",
+    "image": "icon-client-guodian"
+  },
+  {
+    "id": 6,
+    "name": "Huaneng Power International",
+    "description": "Jiutai Power Plant, Jianggangshan Power Plant, Pingliang Power Plant",
+    "image": "icon-client-huaneng"
+  }
+]

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign sections = "hero|about|clients|products|partners|contact" | split: "|" %}
+<section class="section hero home-hero" id="home">
+  {% include index/hero.html %}
+</section>
+{% for section in sections offset: 1 %}
+  <section class="section home-{{section}} {% cycle 'grey', 'white' %}" id="{{section}}">
+    <div class="container">
+      {% include index/{{section}}.html %}
+    </div>
+  </section>
+{% endfor %}

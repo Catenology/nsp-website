@@ -1,0 +1,14 @@
+.button {
+  padding: .5rem 1rem;
+  border: .2rem solid transparent;
+  transition: all ease .2s;
+  display: inline-block;
+  &.cta {
+    background-color: $color-brand;
+    color: $color-white;
+    &:hover,
+    &:focus {
+      border-color: darken($color-brand, 20%);
+    }
+  }
+}

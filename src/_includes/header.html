@@ -1,0 +1,23 @@
+<header class="site-header">
+  <nav class="site-nav">
+    <input type="checkbox" id="menu-checkbox" class="hidden"/>
+    <label class="menu-icon" for="menu-checkbox"><i class="material-icons hamburger">menu</i><i class="material-icons close">close</i></label>
+    <div class="site-nav-menu">
+      <div class="site-nav-menu-wrapper">
+        <div class="site-nav-menu-item brand">
+          <a href="{{site.url}}">
+            <svg viewBox="0 0 32 32" class="icon brand white">
+              <use xlink:href="#icon-nslogo" />
+            </svg>
+          </a>
+        </div>
+        {% assign sections = "about|clients|products|partners|contact" | split: "|" %}
+        {% for section in sections %}
+        <div class="site-nav-menu-item">
+          <a href="{{site.url}}/#{{section}}">{{section | capitalize}}</a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </nav>
+</header>

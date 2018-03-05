@@ -1,0 +1,38 @@
+<div class="products-content">
+  <h1 class="section-title">Products</h1>
+  <p class="section-description">New Standard is the exclusive distributor in the People’s Republic of China (PRC) for numerous overseas markets serving electrical infrastructures to global industrial applications.</p>
+  <div class="product-list row">
+    {% assign products = site.data.products %}
+    {% for product in products %}
+    <div class="three columns product-item">
+      <div class="product-item-thumbnail center-block-v-parent">
+        <img src="{{ site.url }}/images/{{ product.thumbnail }}" alt="{{ product.name }}" class="center-block-v-child">
+      </div>
+      <div class="product-item-name">
+        {{ product.name }}
+      </div>
+      <div class="product-item-meta">
+        <input type="checkbox" id="modal-toggle-{{ product.id }}" class="hidden modal-toggle" />
+        <label for="modal-toggle-{{ product.id }}" class="product-item-more">View more details</label>
+        <label for="modal-toggle-{{ product.id }}" class="modal-close-icon"><i class="material-icons close">close</i></label>
+        <div class="product-item-details modal" id="modal-{{ product.id }}">
+          <div class="modal-body container">
+            <h2 class="title">{{ product.name }}</h2>
+            <ul class="image-list">
+              {% for image in product.images %}
+              <li class="image-item">
+                <img src="{{ site.url }}/images/{{ image }}" alt="{{ product.name }}" />
+              </li>
+              {% endfor %}
+            </ul>
+            <p class="description">{{ product.description }}</p>
+            <p class="link">
+              <a href="{{ product.website }}">Learn more details on manufacture's website</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

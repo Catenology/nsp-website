@@ -1,0 +1,21 @@
+<div class="clients-content">
+  <h1 class="section-title">Our clients</h1>
+  <div class="row">
+    {% assign clients = site.data.clients %}
+    {% for client in clients %}
+    <div class="three columns client-item">
+      <div class="client-item-logo">
+        <svg viewBox="0 0 100 100">
+          <use xlink:href="#{{ client.image }}" />
+        </svg>
+      </div>
+      <div class="client-item-name">
+        {{ client.name }}
+      </div>
+      <div class="client-item-description">
+        {{ client.description }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

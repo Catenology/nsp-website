@@ -1,0 +1,16 @@
+.center-block-v-parent {
+  display: block;
+  position: relative;
+}
+
+.center-block-v-child {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: none;
+}
